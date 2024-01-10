@@ -1,4 +1,4 @@
-###  exception = events detected during execution that interrupt tha flow of a progam
+###  exception = events detected during execution that interrupt tha flow of a program
 
 try:
     num = int(input("Enter a number to divide: "))
@@ -15,7 +15,7 @@ except Exception as e:
     print(e)
     print("Something went wrong :(")
 else:
-      print(result)
+    print(result)
 
 finally:
     print("Mahadev")

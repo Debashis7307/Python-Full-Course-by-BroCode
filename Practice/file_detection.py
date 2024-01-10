@@ -1,6 +1,6 @@
 import os
 
-path = "C:\\Users\\DEBASHIS BERA\\OneDrive\\Desktop\\File.txt"
+path = r"C:\Users\DEBASHIS BERA\Desktop\Joy Bhiya"
 
 if os.path.exists(path):
     print("That location exists!")
@@ -14,17 +14,18 @@ else:
 ###### Read a File  ######
 
 try:
-    with open("C:\\Users\\DEBASHIS BERA\\Desktop\\x.txt","r") as file:
+    with open("C:\\Users\\DEBASHIS BERA\\Desktop\\x.txt","r+") as file:
         print(file.read())
-
+      
 except FileNotFoundError as e:
     print(e)
     print("That file was not found :(")
 
-
 ###### Write a File  ######
 text = "Hey Everyone, I am \n Debashis\nHave a nice day "
 with open("C:\\Users\\DEBASHIS BERA\\Desktop\\write.txt","a") as file:  # w = rewriteing
-    file.write(text)                                                    # a = append in behind
+    file.write(text)   # a = append in behind
+   
+                                                       
 
 
