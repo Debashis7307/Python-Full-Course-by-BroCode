@@ -14,7 +14,7 @@ capitals.update({'West Bengal':'Kalyani'})
 capitals.pop("China")
 
 for key,values in capitals.items():
-    print(key,values)
+    print(key," : ",values)
 
 capitals.clear()
 
