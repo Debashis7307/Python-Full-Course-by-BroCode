@@ -1,6 +1,6 @@
 import time
 
-for second in range(10,-1,-1):
+for second in range(10,0,-1):
     print(second)
     time.sleep(1)
 print("Hey babes, Happy Birthday !")
