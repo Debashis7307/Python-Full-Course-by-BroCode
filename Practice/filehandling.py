@@ -1,12 +1,13 @@
-fil = open("file.txt","r")
-data = fil.read()
-print(data)
-count =0
-for char in data :
-    if(char.isdigit()):
-        count=count+1
+# data = open('mypy.txt','r')
+# print(data.read())
+# data.close()
 
-print(count)
+# with open("exam.txt","w") as d:
+#   d.write("Its exam time , so you should consentrate at studes!")
 
-p = open("file.txt", "a");
-p.write(data+"\n"+str(count))
+f = open("mypy.txt","r")
+while(True):
+  line = f.readline()
+  print(line)
+  if not line:
+    break

@@ -20,4 +20,3 @@ read = pd.read_csv('friends.csv')  # to read any exgisting csv file
 df['name']  # to acess a perticular calumn
 df['name'][4]  # to acess a perticular element
 df['name'][4] = 'Mahadev'  # to change the perticular element
-
