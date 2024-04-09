@@ -10,7 +10,7 @@ food.insert(0,"water")
 food.pop()
 food.remove("water")
 food.sort()
-food.clear()
+# food.clear()
 
 for i in food:
     print(i) 

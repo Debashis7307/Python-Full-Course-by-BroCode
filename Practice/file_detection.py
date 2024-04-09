@@ -23,7 +23,7 @@ except FileNotFoundError as e:
 
 ###### Write a File  ######
 text = "Hey Everyone, I am \n Debashis\nHave a nice day "
-with open("C:\\Users\\DEBASHIS BERA\\Desktop\\write.txt","a") as file:  # w = rewriteing
+with open("C:\\Users\\DEBASHIS BERA\\Desktop\\write.txt","w") as file:  # w = rewriteing
     file.write(text)   # a = append in behind
    
                                                        

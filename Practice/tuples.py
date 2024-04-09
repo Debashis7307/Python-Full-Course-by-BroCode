@@ -10,3 +10,7 @@ for i in its_me:
 
 if "Dev" in its_me:
     print("Deb is here!")
+
+    
+list= ['rpython', 'learning', '@', 'A', 'for', 'abc']
+print(list[ ::-2]) 
