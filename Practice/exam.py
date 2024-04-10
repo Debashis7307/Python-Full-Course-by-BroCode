@@ -20,3 +20,6 @@ def string_lengths(input_list):
 input_list = ["apple", "banana", "orange", "kiwi"]
 result = string_lengths(input_list)
 print(result)  # Output: [5, 6, 6, 4]
+
+#3(A)
+
