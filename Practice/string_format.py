@@ -24,3 +24,9 @@ print("The binary number is {:b}".format(number2))
 print("The octal number is {:o}".format(number2))
 print("The hexadesimal number is {:x}".format(number2))
 print("The scintific number is {:E}".format(number2))
+
+#Using f"string"
+l="loru"
+u="dkbose"
+sen=f"Are vag na {l}, sunta ku nahi {u}..."
+print(sen)
