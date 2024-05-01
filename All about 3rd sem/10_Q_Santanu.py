@@ -9,3 +9,5 @@ def sum_spatial(n):
 print(sum_spatial(10));
 
 # Q2
+
+

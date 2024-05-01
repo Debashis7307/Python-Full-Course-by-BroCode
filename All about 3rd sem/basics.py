@@ -26,3 +26,18 @@ if name in name_list:
   print("Naman hay, \"the altimate power\" ko")
 else:
   print("You have to improve !")
+
+nameList = ['Harsh', 'Pratik', 'Bob', 'Dhruv']  
+pos = nameList.index("Pratik") 
+print(pos * 5)
+
+nameList = ['Harsh', 'Pratik', 'Bob', 'Dhruv'] 
+print(nameList[1][-1])
+
+t = (1, 2)
+print(t*2)
+
+
+list = ['python', 'learning', '@', 'A', 'for', 'abc']       
+print(list[ ::3])
+
